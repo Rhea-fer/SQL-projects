@@ -81,7 +81,7 @@ The analysis provides valuable insights into crime trends in India. The findings
 -  Automate data updates from live crime reports.
 
 ## ✍️ Author
-[Rhea Fernandes]
+Rhea Fernandes
 
 ## 📜 License
 This project is open-source and available for use under the MIT License.
