@@ -19,12 +19,12 @@ This project analyzes crime data from various cities in India to uncover pattern
 The dataset is stored in a MySQL database under the schema `crimedb`, with a primary table named `crime_dataset_india`. It includes information on crime types, victims, crime locations, weapons used, police deployment, and case status.
 
 ## 🛠️ Technologies Used
-- **Programming Language:** Python 🐍
-- **Database:** MySQL 🗄️
+- **Programming Language:** Python 
+- **Database:** MySQL 🗄
 - **Libraries Used:**
-  - `mysql.connector` for MySQL connectivity 🔗
-  - `pandas` for data manipulation 📊
-  - `matplotlib` and `seaborn` for data visualization 📈
+  - `mysql.connector` for MySQL connectivity 
+  - `pandas` for data manipulation 
+  - `matplotlib` and `seaborn` for data visualization 
 
 ## 🧹 Data Cleaning Process
 To ensure data accuracy and consistency, the following steps were performed:
@@ -55,13 +55,13 @@ python crime_analysis.py
 ```
 
 ## 📊 Key Findings
-1. 🔴 **Highest Crime Rate**: Delhi reports the highest number of crimes.
-2. 🏃 **Age Distribution**: Most victims fall in the age group of 19-30.
-3. 🔪 **Weapons Used**: Blunt objects are commonly used in burglaries.
-4. 👩 **Domestic Violence**: Female victims dominate domestic violence cases.
-5. 💻 **Cybercrime**: Cybercrime is prevalent in Delhi.
-6. ✅ **Crime Closure Rate**: Public intoxication cases have the highest closure rate.
-7. 🏙️ **Open Cases**: Delhi has the most open crime cases, indicating delays in resolution.
+1. **Highest Crime Rate**: Delhi reports the highest number of crimes.
+2. **Age Distribution**: Most victims fall in the age group of 19-30.
+3. **Weapons Used**: Blunt objects are commonly used in burglaries.
+4. **Domestic Violence**: Female victims dominate domestic violence cases.
+5. **Cybercrime**: Cybercrime is prevalent in Delhi.
+6. **Crime Closure Rate**: Public intoxication cases have the highest closure rate.
+7. **Open Cases**: Delhi has the most open crime cases, indicating delays in resolution.
 
 ## 📈 Visualizations
 The project includes the following visualizations:
@@ -76,9 +76,9 @@ The project includes the following visualizations:
 The analysis provides valuable insights into crime trends in India. The findings can assist law enforcement agencies in better resource allocation, crime prevention strategies, and policy-making to improve public safety.
 
 ## 🔮 Future Enhancements
-- 🤖 Implement machine learning models to predict crime hotspots.
-- 🗺️ Add geospatial analysis for crime mapping.
-- 🔄 Automate data updates from live crime reports.
+-  Implement machine learning models to predict crime hotspots.
+-  Add geospatial analysis for crime mapping.
+-  Automate data updates from live crime reports.
 
 ## ✍️ Author
 [Rhea Fernandes]
