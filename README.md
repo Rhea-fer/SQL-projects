@@ -4,16 +4,16 @@
 This project analyzes crime data from various cities in India to uncover patterns, trends, and insights into crime distribution. The dataset is stored in a MySQL database and is processed using Python with Pandas, Matplotlib, and Seaborn for data visualization.
 
 ## 🎯 Objectives
-1. 📊 Identify the cities with the highest crime rates.
-2. 👶👨‍🦳 Analyze the distribution of crime victims by age group.
-3. 🔫 Examine commonly used weapons in crimes.
-4. 🚨 Investigate gender distribution in domestic violence cases.
-5. 🏙️ Determine the most commonly committed crimes in each city.
-6. ✅ Identify crime types that are most commonly closed.
-7. 👮 Evaluate police deployment for different crime types.
-8. 🏛️ Study crime distribution across various crime domains.
-9. 🔨 Examine the role of blunt objects as weapons in crimes.
-10. 🏢 Identify cities with the highest number of open crime cases.
+1.  Identify the cities with the highest crime rates.
+2.  Analyze the distribution of crime victims by age group.
+3.  Examine commonly used weapons in crimes.
+4.  Investigate gender distribution in domestic violence cases.
+5.  Determine the most commonly committed crimes in each city.
+6.  Identify crime types that are most commonly closed.
+7.  Evaluate police deployment for different crime types.
+8.  Study crime distribution across various crime domains.
+9.  Examine the role of blunt objects as weapons in crimes.
+10. Identify cities with the highest number of open crime cases.
 
 ## 📂 Data Source
 The dataset is stored in a MySQL database under the schema `crimedb`, with a primary table named `crime_dataset_india`. It includes information on crime types, victims, crime locations, weapons used, police deployment, and case status.
@@ -28,11 +28,11 @@ The dataset is stored in a MySQL database under the schema `crimedb`, with a pri
 
 ## 🧹 Data Cleaning Process
 To ensure data accuracy and consistency, the following steps were performed:
-1. 🧐 Checked for missing values and removed incomplete records.
-2. 🔄 Removed duplicate entries to avoid redundancy.
-3. 🔠 Standardized text formats for consistency.
-4. 📏 Categorized numerical values into meaningful groups.
-5. 🚫 Filtered out irrelevant data to improve analysis quality.
+1. Checked for missing values and removed incomplete records.
+2. Removed duplicate entries to avoid redundancy.
+3. Standardized text formats for consistency.
+4. Categorized numerical values into meaningful groups.
+5. Filtered out irrelevant data to improve analysis quality.
 
 ## 🚀 Steps to Run the Project
 ### 1. 🏗️ Set Up MySQL Database
@@ -65,12 +65,12 @@ python crime_analysis.py
 
 ## 📈 Visualizations
 The project includes the following visualizations:
-- 📊 Bar charts for city-wise crime distribution.
-- 📉 Line plots for age distribution across crime types.
-- 🥧 Pie charts for weapon usage and gender distribution.
-- 🎯 Dot plots for crime types by city.
-- 🔥 Heatmaps for closed cases by crime type.
-- 📏 Stacked bar charts for police deployment analysis.
+- Bar charts for city-wise crime distribution.
+- Line plots for age distribution across crime types.
+- Pie charts for weapon usage and gender distribution.
+- Dot plots for crime types by city.
+- Heatmaps for closed cases by crime type.
+- Stacked bar charts for police deployment analysis.
 
 ## 🏁 Conclusion
 The analysis provides valuable insights into crime trends in India. The findings can assist law enforcement agencies in better resource allocation, crime prevention strategies, and policy-making to improve public safety.
